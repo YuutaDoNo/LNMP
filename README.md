@@ -7,7 +7,7 @@ The nginx will be installed to /usr/local/nginx/sbin/nginx, while the config fil
 
 ## Usage
 ```bash
-git clone https://github.com/capric98/LNMP
+git clone https://github.com/YuutaDoNo/LNMP
 cd LNMP
 ./Go.sh
 ```
