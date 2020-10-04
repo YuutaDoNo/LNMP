@@ -53,7 +53,7 @@ server {
 nginx被安装在/usr/local/nginx/sbin/nginx，配置文件则位于/usr/local/nginx/conf/nginx.conf和/usr/local/nginx/conf/vhost/*.conf；nginx以www用户组下www用户运行，为保持一致已将php的配置文件对应用户、用户组改为www。
 ## 用法
 ```bash
-git clone https://github.com/capric98/LNMP
+git clone https://github.com/YuutaDoNo/LNMP
 cd LNMP
 ./Go.sh
 ```
