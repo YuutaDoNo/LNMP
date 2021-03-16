@@ -10,7 +10,7 @@ wget -O /etc/apt/trusted.gpg.d/php.gpg https://packages.sury.org/php/apt.gpg
 echo "deb https://packages.sury.org/php/ $(lsb_release -sc) main" > /etc/apt/sources.list.d/php.list
 
 apt-get update >> /dev/null
-PHP_VER=7.4
+PHP_VER=8.0
 
 echo "Installing PHP-FPM ${PHP_VER}..."
 apt install -y php${PHP_VER}-fpm php${PHP_VER}-common \
